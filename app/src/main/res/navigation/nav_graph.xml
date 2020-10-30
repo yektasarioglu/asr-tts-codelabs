@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MLListFragment">
+    <fragment
+        android:id="@+id/TTSFragment"
+        android:name="com.yektasarioglu.asrttscodelabs.TTSFragment"
+        android:label="TTSFragment" />
+    <fragment
+        android:id="@+id/ASRFragment"
+        android:name="com.yektasarioglu.asrttscodelabs.ASRFragment"
+        android:label="ASRFragment" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.yektasarioglu.asrttscodelabs.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/MLListFragment"
+        android:name="com.yektasarioglu.asrttscodelabs.MLListFragment"
+        android:label="MLListFragment" >
+        <action
+            android:id="@+id/action_MLListFragment_to_TTSFragment"
+            app:destination="@id/TTSFragment" />
+        <action
+            android:id="@+id/action_MLListFragment_to_ASRFragment"
+            app:destination="@id/ASRFragment" />
+    </fragment>
+</navigation>
