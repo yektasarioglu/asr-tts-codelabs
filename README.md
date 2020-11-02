@@ -1,6 +1,6 @@
 # ASR&TTS Codelabs
 
-![TTS Version](https://img.shields.io/badge/ttsVersion-2.0.2.300-yellow) ![ASR Version](https://img.shields.io/badge/asrVersion-2.0.2.300-blue)
+![ASR Version](https://img.shields.io/badge/asrVersion-2.0.2.300-blue) ![TTS Version](https://img.shields.io/badge/ttsVersion-2.0.2.300-yellow)
 
 <table align="center">
   <tr>
