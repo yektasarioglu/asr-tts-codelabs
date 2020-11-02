@@ -16,5 +16,5 @@
 It's an Android codelabs project that shows **Automatic Speech Recognition (ASR)** and **Text-to-Speech (TTS)** capabilities under the one test app. This repo would be updated as the new versions come.
 
 You can also check the articles below that give you the idea of what TTS and ASR are;
-🤖**ASR**: 
-🤖**TTS**: 
+🤖**ASR**: https://medium.com/huawei-developers/the-robots-can-understand-us-now-c55a1ad073ac
+🤖**TTS**: https://medium.com/huawei-developers/the-one-tts-app-to-rule-them-all-c2b75d26262f
